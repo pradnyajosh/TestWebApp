@@ -1,3 +1,5 @@
+//This is jenkins file for docker
+
 pipeline {
   environment {
     registry = "pradnyajosh/docker-test"
@@ -32,7 +34,6 @@ pipeline {
       steps{
         bat "docker rmi $registry:$BUILD_NUMBER"
       }
-    }
-    
+    }    
    }
 }
