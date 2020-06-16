@@ -12,6 +12,7 @@ using TestWebApp.Models;
 
 namespace TestWebApp.Controllers
 {
+//Comment Added
     [Authorize]
     public class AccountController : Controller
     {
